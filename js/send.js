@@ -1,4 +1,4 @@
-const nodemailer = require('nodemailer');   
+// const nodemailer = require('nodemailer');   
 
 // const form = document.querySelector('.js-form');
 // const ism = document.querySelector('.js-ism');
@@ -8,26 +8,26 @@ const nodemailer = require('nodemailer');
 // const textMess = document.querySelector('.js-message');
 
 
-const transporter = nodemailer.createTransport({
-    service: "gmail",
-    auth: {
-        user: "edoniyorbekdev@gmail.com",
-        pass: "cmcpcszpyyzajgrm"
-    }
-});
+// const transporter = nodemailer.createTransport({
+//     service: "gmail",
+//     auth: {
+//         user: "edoniyorbekdev@gmail.com",
+//         pass: "cmcpcszpyyzajgrm"
+//     }
+// });
 
-const mailOptions = {
-    from: "edoniyorbekdev@gmail.com",
-    to: "edoniyorbekdev@gmail.com",
-    subject: "subject",
-    text: "text",
-}
+// const mailOptions = {
+//     from: "edoniyorbekdev@gmail.com",
+//     to: "edoniyorbekdev@gmail.com",
+//     subject: "subject",
+//     text: "text",
+// }
 
-transporter.sendMail(mailOptions, function (error, info) {
-    if (error) {
-        console.log(error);
-    }
-    else {
-        console.log(info.response);
-    }
-})
+// transporter.sendMail(mailOptions, function (error, info) {
+//     if (error) {
+//         console.log(error);
+//     }
+//     else {
+//         console.log(info.response);
+//     }
+// })
